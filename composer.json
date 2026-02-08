@@ -1,0 +1,34 @@
+{
+    "name": "thesis/protobuf-compiler-types",
+    "description": "Generated types for protoc plugin.",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "kafkiansky",
+            "email": "vadimzanfir@gmail.com"
+        },
+        {
+            "name": "Valentin Udaltsov",
+            "email": "udaltsov.valentin@gmail.com"
+        },
+        {
+            "name": "Thesis Team",
+            "homepage": "https://github.com/orgs/thesis-php/people"
+        }
+    ],
+    "require": {
+        "php": "^8.4",
+        "thesis/protobuf": "^0.1.0",
+        "thesis/protobuf-descriptor-types": "^0.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Google\\Protobuf\\Compiler\\": "src/"
+        }
+    },
+    "config": {
+        "lock": false,
+        "sort-packages": true
+    }
+}
