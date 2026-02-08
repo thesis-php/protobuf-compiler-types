@@ -3,5 +3,5 @@
 ### Installation
 
 ```shell
-composer require thesis/protobuf-plugin-types
+composer require thesis/protobuf-compiler-types
 ```
