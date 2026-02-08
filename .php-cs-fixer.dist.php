@@ -19,7 +19,12 @@ $config = new Config()
     ->setCacheFile(__DIR__ . '/var/' . basename(__FILE__) . '.cache');
 
 new PhpCsFixerCodingStandard()->applyTo($config, [
-    // 'rule' => ['overridden' => 'config'],
+    'fully_qualified_strict_types' => false,
+    'phpdoc_annotation_without_dot' => false,
+    'phpdoc_summary' => false,
+    'phpdoc_trim_consecutive_blank_line_separation' => false,
+    'self_accessor' => false,
+    'numeric_literal_separator' => false,
 ]);
 
 return $config;
