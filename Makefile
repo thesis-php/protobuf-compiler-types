@@ -125,7 +125,7 @@ fix: fixer rector composer-normalize ## Run all fixing recipes
 check: fixer-check rector-check composer-validate composer-normalize-check deps-analyze phpstan  ## Run all project checks
 .PHONY: check
 
-compile: ## Compile plugin types from third_party/protobuf.
+compile: ## Compile compiler types.
 	protoc \
 	    --plugin=protoc-gen-custom-plugin=/usr/local/bin/protoc-gen-php \
 	    google/protobuf/compiler/plugin.proto \
