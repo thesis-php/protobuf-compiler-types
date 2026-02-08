@@ -126,7 +126,7 @@ check: fixer-check rector-check composer-validate composer-normalize-check deps-
 .PHONY: check
 
 compile: ## Compile plugin types from third_party/protobuf.
-	protoc -I./third_party/protobuf \
+	protoc \
 	    --plugin=protoc-gen-custom-plugin=/usr/local/bin/protoc-gen-php \
 	    google/protobuf/compiler/plugin.proto \
 	    --custom-plugin_out=src_path=.:src
