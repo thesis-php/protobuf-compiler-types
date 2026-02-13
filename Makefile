@@ -132,7 +132,6 @@ compile: ## Compile compiler types.
 	    --custom-plugin_out=src_path=.:src
 .PHONY: compile
 
-
 # -----------------------
 
 help:
