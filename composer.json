@@ -20,9 +20,9 @@
     "require": {
         "php": "^8.4",
         "ext-bcmath": "*",
-        "thesis/protobuf": "^0.1.7",
-        "thesis/protobuf-descriptor-types": "^0.1.3",
-        "thesis/protoregistry": "^0.1.1"
+        "thesis/protobuf": "^0.1.8",
+        "thesis/protobuf-descriptor-types": "^0.1.5",
+        "thesis/protoregistry": "^0.1.2"
     },
     "autoload": {
         "psr-4": {
